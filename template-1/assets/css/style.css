@@ -1,0 +1,147 @@
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 0;
+    padding: 0;
+    min-width: 100%;
+}
+.header{
+    background-color: rgb(3, 3, 17);
+    height: 30px;
+    padding: 0 75px 0 75px;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    color: white;
+    justify-content: space-between;
+    
+}
+.header img{
+    height: 20px;
+}
+.header a{
+    color: white;
+    font-size: 12px;
+    text-decoration: none;
+}
+.referenciasImg{
+    display: flex;
+    gap: 10px;
+}
+.referencialink{
+    display: flex;
+    gap: 10px;
+}
+.topSection{
+    padding: 0;
+    margin: 0;
+    color: white;
+}
+picture{
+    display: inline-block;
+    background-color: rgba(0, 3, 39, 0.521);
+    height: 70vh;
+    width: 100%;
+}
+.fondoNav{
+    mix-blend-mode: multiply;
+    position: absolute;
+    background: black url(../img/fondoNav.webp) no-repeat fixed;
+    background-size: 100%;
+    height: 70vh;
+    width: 100%;
+    z-index: -1;
+}
+.infoTopSection{
+    margin: 70px 33% 0 65px;
+}
+nav{
+    display: flex;
+    margin: 0 60px 0 60px;
+    border-bottom: 2px rgba(56, 56, 56, 0.637) solid;
+    justify-content: space-between;
+}
+nav img{
+    height: 48px;
+    width: 180px;
+    margin: 5px 0px 10px 0px;
+}
+.navLogo{
+    display: flex;
+}
+.navButton{
+    display: flex;
+}
+.navButton button{
+    background-color: transparent;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: none;
+    cursor: pointer;
+    transition-duration: .8s;
+}
+.navButton button:hover{
+    background-color: rgb(3, 3, 17);
+}
+.navButton button:focus{
+    background-color: rgb(3, 3, 17);
+}
+.navButton button span{
+    text-decoration: none;
+    color: white;
+    user-select: none;
+    font-size: 11px;
+}
+.infoTopSection h1{
+    font-size: 34px;
+    font-weight: bolder;
+}
+.infoTopSection h5{
+    font-size: 11px;
+    margin-top: -17px;
+    color: rgba(27, 27, 27, 0.719);
+}
+.infoTopSection button{
+    cursor: pointer;
+    background-color: rgb(255, 94, 0);
+    color: white;
+    font-size: 11px;
+    font-weight: bold;
+    border-width: 0px;
+    padding: 10px 25px 10px 25px;
+    transition-duration: .4s;
+    box-shadow: 1px 1.5px rgba(0, 0, 0, 0.534);
+}
+.infoTopSection button:hover{
+    background-color: rgb(211, 77, 0);
+    box-shadow: 0px 0px rgba(0, 0, 0, 0.534);
+}
+.downTitle{
+    margin-top: 11.5%;
+    display: flex;
+    justify-content: space-around;
+}
+.downTitle div{
+    display: flex;
+    width: 27%;
+    height: 7.1vh;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(255, 255, 255, 0.041);
+}
+.downTitle span{
+    font-weight: bold;
+}
+.infoOFDownTitle{
+    display: flex;
+    justify-content: space-around;
+}
+.infoOFDownTitle div{
+    display: flex;
+    flex-direction: column;
+    width: 27%;
+    height: 20vh;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.103) ;
+}
