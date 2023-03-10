@@ -145,7 +145,12 @@ body{
     font-size: larger;
 }
 .paragraph_header{
+    display: flex;
+    justify-content: center;
+    width: 100%;
     margin-top: -30px;
+}
+.paragraph_header p{
     width: 60%;
 }
 /* content_section_design */
